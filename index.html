@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Param Patel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myskills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#myeducation">Education</a></li>
+                    <li><a href="#training-courses">Training & Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Student | Web Developer | Tech Enthusiast</p>
+                <h1>Hi! I am <span>Param</span> Patel</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpeg" class="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="aboutme">
+                        I am a dedicated and enthusiastic Computer Science engineer currently pursuing my M.Tech at IIT Guwahati. 
+                        My core interests include IoT security, machine learning, and embedded systems, and I’ve worked on impactful 
+                        projects like an IoT device classifier, a handwriting-based dyslexia detection system, and a speech-command vehicle recognition app. 
+                        I take pride in securing a 99.33 percentile in GATE CS and successfully optimizing CNN latency using FPGA HLS tools. 
+                        I’m proficient in C/C++, Python, and Java, with strong experience in both Windows and Linux environments. 
+                        I thrive on solving real-world challenges through innovative, tech-driven solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C  |  C++  |  Python  |  Java</li>
+                            <li><span>Database Management</span><br>MySQL</li>
+                            <li><span>Version Control</span><br>Git</li>
+                            <li><span>Operating Systems</span><br>Windows  |  Linux  |  MacOS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2022</span><br>B.Tech in Computer Science and Engineering<br>Marwadi University, Rajkot<br>CGPA: 8.38</li>
+                            <li><span>2023 - Present</span><br>M.Tech in Computer Science and Engineering<br>Indian Institute of Technology, Guwahati<br>CGPA: 7.67 (2nd Year)</li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- ------------skills----------------- -->
+     <div id="myskills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming Languages</h2>
+                    <p>
+                        I have a strong command over <b>C/C++</b> <i class="fa-brands fa-cuttlefish"></i>, <b>Python</b> <i class="fa-brands fa-python"></i>, and <b>Java</b> <i class="fa-brands fa-java"></i>. My experience includes building efficient algorithms, solving complex problems, and developing robust applications using these languages.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database & Version Control</h2>
+                    <p>
+                        I am skilled in managing and designing databases using <b>MySQL</b> <i class="fa-solid fa-database"></i>. I am also an experienced user of <b>Git</b> <i class="fa-brands fa-git-alt"></i> for version control, ensuring smooth collaboration and code management in team projects.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Operating Systems</h2>
+                    <p>
+                        I have hands-on experience working with <b>Windows</b> <i class="fa-brands fa-windows"></i>, <b>Linux</b> <i class="fa-brands fa-linux"></i>, and <b>MacOS</b> <i class="fa-brands fa-apple"></i>. This versatility allows me to adapt quickly to different development environments and leverage the strengths of each OS.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- --------------------------Projects----------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+
+                <div class="project-card">
+                    <h2>MTech Thesis Project</h2>
+                    <p class="project-date"><i class="fa-regular fa-calendar"></i> 07/2024 - Ongoing &nbsp; <i class="fa-solid fa-location-dot"></i> Guwahati, India</p>
+                    <h3>Classification and Authentication of IoT Devices</h3>
+                    <ul>
+                        <li>The aim is to classify and authenticate IoT devices to detect anomalous behaviour using their network characteristics.</li>
+                        <li>To enhance the accuracy of classification and identification, various ML-based approaches on multiple datasets are being explored.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h2>Course Project</h2>
+                    <p class="project-date"><i class="fa-regular fa-calendar"></i> 03/2024 - 05/2024 &nbsp; <i class="fa-solid fa-location-dot"></i> Guwahati, India</p>
+                    <h3>Detection of Dyslexia using Handwriting Images</h3>
+                    <ul>
+                        <li>This Image Processing and ML project evaluated ANN, Decision Tree, and SVC classifiers.</li>
+                        <li>Image-based features outperformed text-based ones, suggesting the potential benefit of integrating both feature types.</li>
+                        <li><b>Tools:</b> OpenCV, Tesseract, TensorFlow</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h2>Course Project</h2>
+                    <p class="project-date"><i class="fa-regular fa-calendar"></i> 11/2023 - 12/2023 &nbsp; <i class="fa-solid fa-location-dot"></i> Guwahati, India</p>
+                    <h3>Real Time Vehicle Recognition Using Speech Commands</h3>
+                    <ul>
+                        <li>Developed an application that can be trained on vehicle names and retrieves vehicle details using speech commands.</li>
+                        <li>Provides Live Training option to add new vehicle names.</li>
+                        <li>Utilized Linear Predictive Coding (LPC) for speech signal processing and Hidden Markov Model (HMM) for speech recognition.</li>
+                        <li>This project is an extension of the Digit-Recognition assignment in CS566 Speech Processing course.</li>
+                        <li><b>Tools:</b> C++, Visual Studio, Cool Edit</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h2>Course Project</h2>
+                    <p class="project-date"><i class="fa-regular fa-calendar"></i> 02/2024 - 03/2024 &nbsp; <i class="fa-solid fa-location-dot"></i> Guwahati, India</p>
+                    <h3>Multi-Threaded Event Reservation System</h3>
+                    <ul>
+                        <li>Developed a multi-threaded Event Reservation System using pthread API calls.</li>
+                        <li>Managed events with multiple seats, ensuring data consistency and load management.</li>
+                        <li>Applied synchronization techniques for thread blocking and signaling, maintaining database integrity.</li>
+                        <li><b>Tools:</b> C, Visual Code Studio</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h2>Course Project</h2>
+                    <p class="project-date"><i class="fa-regular fa-calendar"></i> 03/2024 - 05/2024 &nbsp; <i class="fa-solid fa-location-dot"></i> Guwahati, India</p>
+                    <h3>Comparative Analysis of High Level Synthesis for HAR CNN Model</h3>
+                    <ul>
+                        <li>Analyzed and compared HLS techniques for generating FPGA-compatible code for a CNN-based Human Activity Recognition model.</li>
+                        <li>Achieved a reduction in latency to 4.52 million clock cycles in Vivado, nearly halving the original latency.</li>
+                        <li><b>Tools:</b> Keras2c, HLS4ML, Vivado HLS</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+     <!-- --------------------------Education----------------------------- -->
+    <div id="myeducation">
+        <div class="container">
+            <h1 class="sub-title">Education & Achievements</h1>
+            <p class="description"><br>Hover over the Images</p>
+            <div class="work-list">
+                <!-- New Education Card -->
+                <div class="work">
+                    <img src="Images/education.jpeg" alt="Education">
+                    <div class="layer">
+                        <h2>Education</h2>
+                        <p>
+                            I am currently pursuing my <b>M.Tech.</b> at <b>Indian Institute of Technology, Guwahati</b> with a CGPA of <b>7.67</b> (2023-current).<br/> I completed my <b>B.Tech. in Computer Science and Engineering</b> from <b>Marwadi Education Foundation FOE, Rajkot</b> with a CGPA of <b>8.38</b> (2018-2022).
+                        </p>
+                    </div>
+                </div>
+                <!-- ...existing education cards... -->
+                <div class="work">
+                    <img src="Images/gate.webp">
+                    <div class="layer">
+                        <h2>GATE CS</h2>
+                        <p>Qualified GATE CS with 99.33 percentile (All India Rank 507)<br>2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/pgee.avif">
+                    <div class="layer">
+                        <h2 >IIITH PGEE CSE</h2>
+                        <p>
+                            Qualified IIITH PGEE CSE with 99+percentile <br>2023</br>
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="Images/work-3.jpeg">
+                    <div class="layer">
+                        <h3>School Education</h3>
+                        <p>
+                            Class(1st to 10th) | CBSE | PODAR INTERNATIONAL SCHOOL, RAJKOT</br>
+                            Class(11th & 12th) | CBSE | SGVP INTERNATIONAL SCHOOL, RAJKOT</br>
+                            10th Boards | CBSE | 93.4%</br>
+                            12th Boards | CBSE | 94.5%
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------Training & Courses----------------------------- -->
+    <div id="training-courses">
+        <div class="container">
+            <h1 class="sub-title">Training & Courses</h1>
+            <div class="courses-grid">
+                <div class="course-card"><i class="fa-solid fa-cubes"></i> Object Oriented Programming (OOPs)</div>
+                <div class="course-card"><i class="fa-solid fa-diagram-project"></i> Data Structures and Algorithms</div>
+                <div class="course-card"><i class="fa-solid fa-microphone-lines"></i> Speech Processing</div>
+                <div class="course-card"><i class="fa-solid fa-image"></i> Image Processing with Machine Learning</div>
+                <div class="course-card"><i class="fa-solid fa-server"></i> Operating Systems</div>
+                <div class="course-card"><i class="fa-solid fa-computer"></i> Computer Systems Lab</div>
+                <div class="course-card"><i class="fa-solid fa-flask"></i> Data Structures Lab</div>
+                <div class="course-card"><i class="fa-solid fa-sitemap"></i> Design and Analysis of Algorithms</div>
+                <div class="course-card"><i class="fa-solid fa-database"></i> Database Management System</div>
+                <div class="course-card"><i class="fa-solid fa-microchip"></i> C-based VLSI Design</div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------contact------------------------------------------ -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>param1812@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/shivansh007?igsh=azA0eWR1bGZ0eXpt"  target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/ItsMeShivansh" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shivansh-santoki-03b685325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="ParamBPatelResume.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="contact-form" enctype="multipart/form-data" method="POST" action="https://param-resume-mail-service-10cd1ddf819e.herokuapp.com/api/contact">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="Subject" placeholder="Subject" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <input type="file" name="Attachments" multiple accept="image/*,video/*,.pdf,.doc,.docx,.ppt,.pptx,.txt,.zip,.rar">
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Param Patel</p>
+        </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
